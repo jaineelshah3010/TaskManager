@@ -1,0 +1,267 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: white;
+    height: auto;
+    max-width: 90%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.header{
+    margin-top: -2%;
+    border: 1px solid #F9F9F9;
+    border-radius: 5px ; 
+    height: 500px;
+    background-color: #F9F9F9;
+    width: 109.5%;
+}
+
+.organization{
+    font-family: "Helvetica neue"  ;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 7.5%;
+    font-size: 50px;
+    letter-spacing: 5px;
+    color: black;
+}
+
+.title{
+    font-family: "Times"  ;
+    font-weight: 300;
+    text-align: center;
+    margin-top: -3.5%;
+    font-size: 50px;
+    letter-spacing: 5px;
+    color: #371B58;
+}
+
+.description{
+    font-family: "Avenir";
+    font-size: 15px;
+    width: 700px;
+    text-align: center;
+    margin-left: 22%;
+    margin-top: -3%;
+    letter-spacing: 2px;
+    color: #354259;
+}
+.button-start{
+    font-family: "Times";
+    background-color: #1B2430;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 150px;
+    padding: 0px 15px;
+    text-align: center;
+    color: white;
+    margin-top: 2.5%;
+    margin-left: 42%;
+    font-size: 16px;
+}
+
+.img1{
+    margin-top: 10%;
+    margin-left: 3%;
+    text-align: center;
+    width: 600px;
+    height: min-content;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+img{
+    border-radius: 10px;
+    margin-bottom: -2%;
+}
+
+.text-float{
+    float: right;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 200;
+    width: 40%;
+    margin-top: -28.5%;
+}
+
+.text-float-undr{
+    float: right;
+    font-family:"Hoefler Text";
+    font-size: 15px;
+    font-weight: 100;
+    width: 40%;
+    letter-spacing: 3px;
+    margin-top: -17%;
+    color: #354259;
+}
+
+.btn-2{
+    font-family: "Times";
+    background-color: #1B2430;
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+    padding: 0px 15px;
+    margin-left: 60%;
+    color: white;
+    margin-top: -7%;
+    font-size: 15px;
+}
+
+.main-content{
+    margin-top: 13%;
+    border: 1px solid #F9F9F9;
+    border-radius: 5px ; 
+    height: 600px;
+    width: 109.5%;
+    background-color: #F9F9F9;
+}
+
+.content-text{
+    margin-top: 0%;
+    font-family: "Helvetica neue"  ;
+    font-weight: 330;
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 2px;
+    width: 50%;
+    margin-left: 27%;
+}
+
+.icons{
+    color: red;
+    font-size: 250%;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+.icn-txt{
+    font-family: "Avenir";
+    float: left;
+    margin-left: 2%;
+    margin-top: 4%;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.box-icn{
+    border: 1px solid #EEEEEE;
+    background-color: #EEEEEE;
+    border-radius: 10px;
+    height: 150px;
+    width: 35%;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.check-dscp{
+    float: left;
+    margin-left: 2%;
+    color: #413F42;
+    font-weight: 500;
+}
+
+.box-2{
+    border: 1px solid #EEEEEE;
+    background-color: #EEEEEE;
+    border-radius: 10px;
+    height: 150px;
+    width: 100%;
+    margin-top: -11.5% ;
+    margin-left: 155%;
+}
+
+.icon-2{
+    color: #97DBAE;
+    font-size: 200%;
+    margin-left: 4%;
+    margin-top: 1%;
+}
+
+.check-dscp2{
+    float: left;
+    margin-top: -1%;
+    margin-left: 2%;
+    color: #413F42;
+    font-weight: 500;
+}
+
+.icn-txt-2{
+    font-family: "Avenir";
+    float: left;
+    margin-left: 2%;
+    margin-top: -8%;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.about{
+    margin-top: 25%;
+    width: 40%;
+    font-family: "Helvetica neue"  ;
+    font-size: 30px;
+    font-weight: 320;
+    text-align: center;
+    word-spacing: 2px ;
+    letter-spacing: 1px;
+
+}
+
+.product-manage{
+    margin-top: -25%;
+    margin-right: 2%;
+    float: right;
+    text-align: center;
+    height: min-content;
+    box-shadow: 4px 8px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+.start-screen{
+    margin-top: 0%;
+    border: 1px solid #EEF1FF;
+    height: 800px;
+    width: 100.9%;
+    background-color: #EEF1FF;
+    margin-left: -0.5%;
+    box-shadow: 4px 8px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+.page-header{
+    font-family: "Helvetica neue"  ;
+    font-weight: 330;
+    text-align: center;
+    font-size: 45px;
+}
+
+.page1{
+    float: left;
+    margin-left: 18%;
+    margin-top: 5.8%;
+    box-shadow: 4px 8px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.page2{
+    margin-left: 39%;
+    margin-top: 7.5%;
+    box-shadow: 4px 8px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.page3{
+    margin-left: 60.5%;
+    margin-top: -37.5%;
+    box-shadow: 4px 8px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    width: fit-content;
+}

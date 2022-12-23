@@ -70,8 +70,8 @@ a{
     margin-top: 10%;
     margin-left: 3%;
     text-align: center;
-    width: 600px;
-    height: min-content;
+    width: 700px;
+    height: max-content;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
 }
@@ -96,7 +96,7 @@ img{
     font-weight: 100;
     width: 40%;
     letter-spacing: 3px;
-    margin-top: -17%;
+    margin-top: -21%;
     color: #354259;
 }
 
@@ -110,7 +110,7 @@ img{
     padding: 0px 15px;
     margin-left: 60%;
     color: white;
-    margin-top: -7%;
+    margin-top: -13%;
     font-size: 15px;
 }
 
@@ -219,16 +219,15 @@ img{
     float: right;
     text-align: center;
     height: min-content;
-    box-shadow: 4px 8px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 10px;
+    word-spacing: 2em;
 }
 
 .start-screen{
     margin-top: 0%;
-    border: 1px solid #EEF1FF;
+    border: 1px solid black;
     height: 800px;
     width: 100.9%;
-    background-color: #EEF1FF;
+    background-color: black;
     margin-left: -0.5%;
     box-shadow: 4px 8px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
@@ -238,30 +237,134 @@ img{
     font-family: "Helvetica neue"  ;
     font-weight: 330;
     text-align: center;
+    color: white;
     font-size: 45px;
 }
 
 .page1{
     float: left;
-    margin-left: 18%;
+    margin-left: 5%;
     margin-top: 5.8%;
-    box-shadow: 4px 8px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
+    word-spacing: 10px;
     width: fit-content;
 }
 
 .page2{
-    margin-left: 39%;
-    margin-top: 7.5%;
-    box-shadow: 4px 8px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 28%;
+    word-spacing: 10px;
+    margin-top: 8.2%;
     border-radius: 10px;
     width: fit-content;
 }
 
 .page3{
-    margin-left: 60.5%;
-    margin-top: -37.5%;
-    box-shadow: 4px 8px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 50.5%;
+    word-spacing: 10px;
+    margin-top: -40%;
     border-radius: 10px;
     width: fit-content;
+}
+.page4{
+    margin-left: 70.5%;
+    word-spacing: 10px;
+    margin-top: -40.5%;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+@media only screen and (min-height: 844px){
+    .header{
+        margin-top: -2%;
+        border: 1px solid #F9F9F9;
+        border-radius: 5px ; 
+        height: 600px;
+        background-color: #F9F9F9;
+        width: 109.5%;
+    }
+    
+    .organization{
+        font-family: "Helvetica neue"  ;
+        font-weight: 200;
+        text-align: center;
+        margin-top: 7.5%;
+        font-size: 60px;
+        letter-spacing: 5px;
+        color: black;
+    }
+    
+    .title{
+        font-family: "Times"  ;
+        font-weight: 300;
+        text-align: center;
+        margin-top: -5%;
+        font-size: 70px;
+        letter-spacing: 5px;
+        color: #371B58;
+    }
+    
+    .description{
+        font-family: "Avenir";
+        font-size: 22px;
+        width: 700px;
+        text-align: center;
+        margin-left: 13%;
+        margin-top: -3%;
+        letter-spacing: 2px;
+        color: #354259;
+    }
+    .button-start{
+        font-family: "Times";
+        background-color: #1B2430;
+        border: 1px solid;
+        border-radius: 10px;
+        width: 150px;
+        padding: 0px 15px;
+        text-align: center;
+        color: white;
+        margin-top: 2%;
+        font-size: 16px;
+        margin-left: 40%;
+    }
+    .img1{
+        width: 700px;
+        text-align: center;
+        margin-left: 15%;
+    }
+    .text-float{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 45px;
+        font-weight: 400;
+        width: 90%;
+        text-align: center;
+        margin-top: 3%;
+    }
+    
+    .text-float-undr{
+        font-family:"Hoefler Text";
+        font-size: 25px;
+        font-weight: 100;
+        text-align: center;
+        width: 90%;
+        letter-spacing: 3px;
+        margin-top: 0%;
+        color: #354259;
+    }
+    
+    .btn-2{
+        font-family: "Times";
+        background-color: #1B2430;
+        margin-top: 45%;
+        border: 1px solid;
+        border-radius: 5px;
+        text-align: center;
+        width: 400px;
+        padding: 0px 15px;
+        margin-left: 32%;
+        color: white;
+        font-size: 25px;
+    }
+    .product-manage{
+        display: none;
+    }
 }
